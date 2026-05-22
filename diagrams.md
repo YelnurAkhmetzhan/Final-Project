@@ -51,21 +51,31 @@ classDiagram
 
 ## 3. Program Flowchart
 
-```mermaid
-flowchart TD
-    A[Start Program] --> B[Load Data from JSON]
-    B --> C[Show Menu]
-    C --> D{User Choice}
-    D --> E[Add/Edit/Delete/Search Student]
+flowchart LR
+    A([Start Program]) --> B[Load Data from JSON]
+    B --> C[Show Main Menu]
+    C --> D{User Selects Option}
+
+    D --> E[Manage Students]
+    E --> E1[Add / Edit / Delete / Search Student]
+    E1 --> C
+
     D --> F[Add Grade]
+    F --> F1[Update Student Grades]
+    F1 --> C
+
     D --> G[Mark Attendance]
+    G --> G1[Update Attendance Records]
+    G1 --> C
+
     D --> H[Show Reports]
+    H --> H1[Average Grade / Low Attendance / Low Grade]
+    H1 --> C
+
     D --> I[Save Data]
+    I --> I1[Write Data to JSON File]
+    I1 --> C
+
     D --> J[Exit]
-    E --> C
-    F --> C
-    G --> C
-    H --> C
-    I --> C
-    J --> K[Save Data and Close Program]
-```
+    J --> K[Save Data Before Closing]
+    K --> L([End Program])
