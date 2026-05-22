@@ -1,0 +1,2 @@
+# This project uses only built-in Python modules.
+# Python version recommended: 3.10 or higher.
