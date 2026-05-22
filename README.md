@@ -1,70 +1,70 @@
-# Student Grade & Attendance Tracker
+# Student Grade \& Attendance Tracker
 
 ## Project Information
 
 **Student name:** Yelnur Akhmetzhan  
 **Group:** SE-2504  
-**Project title:** Student Grade & Attendance Tracker
+**Project title:** Student Grade \& Attendance Tracker
 
 ## Project Description
 
-Student Grade & Attendance Tracker is a simple Python console application for managing student academic records. The program allows the user to add students, edit student information, delete students, search students, add grades, mark attendance, calculate average grades, and find students with low attendance or low average grades.
+Student Grade \& Attendance Tracker is a simple Python console application for managing student academic records. The program allows the user to add students, edit student information, delete students, search students, add grades, mark attendance, calculate average grades, and find students with low attendance or low average grades.
 
 The project follows the approved proposal and uses the main Python concepts covered during the course.
 
 ## Main Features
 
-- Add new students
-- Edit student names
-- Delete students
-- Search students by name or ID
-- Add grades for subjects
-- Mark attendance as present or absent
-- Calculate average grade
-- Calculate attendance percentage
-- Show students with low average grade
-- Show students with low attendance
-- Save data to a JSON file
-- Load data from a JSON file
-- Log user actions using a custom decorator
+* Add new students
+* Edit student names
+* Delete students
+* Search students by name or ID
+* Add grades for subjects
+* Mark attendance as present or absent
+* Calculate average grade
+* Calculate attendance percentage
+* Show students with low average grade
+* Show students with low attendance
+* Save data to a JSON file
+* Load data from a JSON file
+* Log user actions using a custom decorator
 
 ## Technologies Used
 
-- Python
-- Lists
-- Dictionaries
-- Sets
-- Object-Oriented Programming
-- Classes and objects
-- Functions and methods
-- JSON module
-- OS module
-- Datetime module
-- Custom decorators
-- Modular project structure
+* Python
+* Lists
+* Dictionaries
+* Sets
+* Object-Oriented Programming
+* Classes and objects
+* Functions and methods
+* JSON module
+* OS module
+* Datetime module
+* Custom decorators
+* Modular project structure
 
 ## Project Structure
 
 ```text
-Student_Grade_Attendance_Tracker/
+Student\\\_Grade\\\_Attendance\\\_Tracker/
 │
 ├── main.py
 ├── models/
-│   ├── __init__.py
+│   ├── \\\_\\\_init\\\_\\\_.py
 │   └── student.py
 ├── services/
-│   ├── __init__.py
+│   ├── \\\_\\\_init\\\_\\\_.py
 │   └── tracker.py
 ├── utils/
-│   ├── __init__.py
+│   ├── \\\_\\\_init\\\_\\\_.py
 │   ├── decorators.py
-│   └── file_handler.py
+│   └── file\\\_handler.py
 ├── data/
 │   └── students.json
 ├── logs/
 │   └── actions.log
 ├── diagrams.md
-├── defense_script.md
+├── defense\\\_script.md
 ├── README.md
 └── requirements.txt
 ```
@@ -128,4 +128,33 @@ The project uses built-in Python modules: `json`, `os`, and `datetime`.
 
 ### Decorators
 
-The custom decorator `log_action` records important user actions in `logs/actions.log`.
+The custom decorator `log\\\_action` records important user actions in `logs/actions.log`.
+
+
+
+\## Final Project Notes
+
+
+
+This project was created as a final project for Introduction to Programming 2.  
+
+It demonstrates object-oriented programming, file handling, data structures, decorators, and modular project organization.
+
+
+
+\## Main Python Concepts Used
+
+
+
+\- Classes and objects
+
+\- Lists, dictionaries, and sets
+
+\- JSON file handling
+
+\- Custom decorators
+
+\- External modules
+
+\- Modular structure
+
